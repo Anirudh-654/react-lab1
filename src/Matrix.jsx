@@ -25,7 +25,7 @@ export default function Matrix({ matrix, onIncrement }) {
                   row={rowIndex}
                   col={colIndex}
                   value={value}
-                  onClick={() => {}}
+                  onClick={() => onIncrement(rowIndex, colIndex)}
                 />
               </td>
             ))}
